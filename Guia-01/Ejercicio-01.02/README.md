@@ -1,6 +1,6 @@
-#01.2
+# 01.2
 
-##Enunciado
+## Enunciado
 
 Realice el pseudocódigo de un programa que sirva para determinar la hipotenusa de un triángulo rectángulo conocidas las longitudes de sus dos catetos.
 

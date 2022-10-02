@@ -1,13 +1,13 @@
-#01.1
+# 01.1
 
-##Enunciado
+## Enunciado
 
 Desarrolla un algoritmo que permita leer tres valores y almacenarlos en las variables A, B y C respectivamente. Imprima el mayor de los tres valores
 
 
 ## Opcion 1
 
-###Pseudocódigo
+### Pseudocódigo
 
     INICIO
         Pedir al usuario el primer valor y guardarlo en A
@@ -35,7 +35,7 @@ Desarrolla un algoritmo que permita leer tres valores y almacenarlos en las vari
 
 ## Opcion 2
 
-###Pseudocódigo
+### Pseudocódigo
 
 
     INICIO
