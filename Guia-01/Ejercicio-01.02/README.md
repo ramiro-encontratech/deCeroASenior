@@ -1,5 +1,7 @@
 # 01.2
 
+Ejercicio 2 de la guia #01 de "De Cero a Senior". Hacé click [aca](https://guias.encontratech.com.ar) para descargarla.
+
 ## Enunciado
 
 Realice el pseudocódigo de un programa que sirva para determinar la hipotenusa de un triángulo rectángulo conocidas las longitudes de sus dos catetos.
@@ -14,4 +16,7 @@ Realice el pseudocódigo de un programa que sirva para determinar la hipotenusa 
 
 ## Diagrama de flujos
 
-![alt text](./Diagrama%20de%20Flujos.png)
+![Diagrama de flujos](./Diagrama%20de%20Flujos.png)
+
+***
+© Copyright [EncontraTech](https://www.encontraTech.com.ar), 2022. Todos los derechos reservados.

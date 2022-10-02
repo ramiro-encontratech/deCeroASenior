@@ -1,5 +1,7 @@
 # 01.3
 
+Ejercicio 3 de la guia #01 de "De Cero a Senior". Hacé click [aca](https://guias.encontratech.com.ar) para descargarla.
+
 ## Enunciado
 
 Desarrolla un algoritmo (pseudocódigo) que permita determinar el área y volumen de un cilindro dado su radio (R) y Altura (H)
@@ -15,4 +17,7 @@ Desarrolla un algoritmo (pseudocódigo) que permita determinar el área y volume
 
 ## Diagrama de flujos
 
-![alt text](./Diagrama%20de%20Flujos.png)
+![Diagrama de flujos](./Diagrama%20de%20Flujos.png)
+
+***
+© Copyright [EncontraTech](https://www.encontraTech.com.ar), 2022. Todos los derechos reservados.
