@@ -1,9 +1,12 @@
 #01.1
+
 ##Enunciado
+
 Desarrolla un algoritmo que permita leer tres valores y almacenarlos en las variables A, B y C respectivamente. Imprima el mayor de los tres valores
 
 
 ## Opcion 1
+
 ###Pseudocódigo
 
     INICIO
@@ -25,11 +28,15 @@ Desarrolla un algoritmo que permita leer tres valores y almacenarlos en las vari
         FinSi
     FIN
 
+
 ### Diagrama de flujos
+
 ![Diagrama de flujos - version 1](./Diagrama%20de%20Flujos%20-%20version%20%231.png)
 
 ## Opcion 2
+
 ###Pseudocódigo
+
 
     INICIO
         Pedir al usuario el primer valor y guardarlo en A
@@ -45,4 +52,5 @@ Desarrolla un algoritmo que permita leer tres valores y almacenarlos en las vari
     FIN
 
 ### Diagrama de flujos
+
 ![Diagrama de flujos - version 2](./Diagrama%20de%20Flujos%20-%20version%20%232.png)
