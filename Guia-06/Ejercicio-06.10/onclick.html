@@ -1,0 +1,28 @@
+<html>
+<body>
+<h1 id="titulo" >Esto es un formulario con un texto preseteado</h1>
+<div>
+    Ingerse su nombre <input id="nombre-formulario" value="Juan" /><br/>
+    Edad <input id="edad-formulario" value="23" /><br/>
+    Preferencias:
+    ☕️ Cafe <input id="cafe-formulario" checked type="checkbox" /> -
+    🫖 Te <input id="te-formulario" type="checkbox" />
+    <p id="resultados"></p>
+    <button onclick="mostrarResultados()" >Refresca resultado</button>
+</div>
+<script>
+    let mostrarResultados = function(){
+        let nombre = document.getElementById("nombre-formulario").value;
+        let edad = parseInt(document.getElementById("edad-formulario").value);
+        let preferencias = {};
+        preferencias.cafe = document.getElementById("cafe-formulario").checked;
+        preferencias.te = document.getElementById("te-formulario").checked;
+
+        let resultados = document.getElementById("resultados");
+
+        resultados.innerHTML = "Tu nombre es: " + nombre + " tu edad es: " + edad + " te gusta el cafe: "+ preferencias.cafe + " te gusta el te:"+ preferencias.te;
+    }
+
+    mostrarResultados();
+</script>
+</body>
