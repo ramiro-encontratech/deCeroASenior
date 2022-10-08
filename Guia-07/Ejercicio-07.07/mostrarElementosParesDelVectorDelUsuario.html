@@ -1,0 +1,22 @@
+<html>
+<body>
+    <script>
+        let vectorAMostrar = [];
+        let numeroAAgregar = prompt("Ingrese un numero (-1 para salir)");
+
+        while(numeroAAgregar!=-1){
+            vectorAMostrar.push(numeroAAgregar);
+            numeroAAgregar = prompt("Ingrese un numero (-1 para salir)");
+        }
+
+        console.log("El usuario ingreso : "+vectorAMostrar.length+" numero/s");
+        
+        for(let i=0; i<vectorAMostrar.length;i++){
+            if((vectorAMostrar[i] % 2) == 0){
+                console.log("El valor que esta en la poscion "+i+" es par y es el valor: "+vectorAMostrar[i]);
+            }
+        }
+
+    </script>
+</body>
+</html>

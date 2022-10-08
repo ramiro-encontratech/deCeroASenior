@@ -1,0 +1,20 @@
+<html>
+<body>
+    <script>
+        let vectorAMostrar = [];
+        let numeroAAgregar = prompt("Ingrese un numero (-1 para salir)");
+
+        while(numeroAAgregar!=-1){
+            vectorAMostrar.push(numeroAAgregar);
+            numeroAAgregar = prompt("Ingrese un numero (-1 para salir)");
+        };
+
+        console.log("El usuario ingreso : "+vectorAMostrar.length+" numero/s");
+
+        for(let i=0; i<vectorAMostrar.length;i++){
+            console.log(vectorAMostrar[i]);
+        }
+
+    </script>
+</body>
+</html>
