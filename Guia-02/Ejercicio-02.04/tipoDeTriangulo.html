@@ -1,0 +1,27 @@
+<html>
+<body>
+    <script>
+        let primerLado = prompt("Ingrese el largo del primer lado");
+        let segundoLado = prompt("Ingrese el largo del segundo lado");
+        let tercerLado = prompt("Ingrese el largo del tercero lado");
+
+        if(primerLado == segundoLado){
+            if(segundoLado == tercerLado){
+                document.write("Es equilátero");
+            } else {
+                document.write("Es isósceles");
+            }
+        } else {
+            if(segundoLado == tercerLado){
+                document.write("Es isósceles");
+            } else {
+                if(tercerLado == primerLado){
+                    document.write("Es isósceles");
+                } else {
+                    document.write("Es escaleno");
+                }
+            }
+        }
+    </script>
+</body>
+</html>
